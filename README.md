@@ -15,19 +15,19 @@
 Here the full reference of How to connect JDBC with MY SQL :
 https://www.javatpoint.com/example-to-connect-to-the-mysql-database
 
-2.you should create a database with name of "project" using MYSql
+2.you should create a database with name of "project" using MYSql.
 3. create a table "CMS " in project database.Below given Syntax of MYSql.
  -- -----------------------------------------------------------------
-create table CMS(
- name varchar(40),
- mob varchar(40),
- addr varchar(40),
- gender varchar(40),
- dob varchar(40),
- primary key(name,mob)
+create table CMS(.
+ name varchar(40),.
+ mob varchar(40),.
+ addr varchar(40),.
+ gender varchar(40),.
+ dob varchar(40),.
+ primary key(name,mob).
  
  
-);
+);.
 
 -------------------------------------------------------------------------------
 4. create a table "guest" in project database.Below given Syntax of MYSql.
@@ -80,6 +80,10 @@ OUTPUT :
 ![image](https://user-images.githubusercontent.com/48892208/98442764-c017e080-212c-11eb-96ed-14a790b1573f.png)
 ![image](https://user-images.githubusercontent.com/48892208/98442748-9494f600-212c-11eb-85a9-7d3daf63499f.png)
 ![image](https://user-images.githubusercontent.com/48892208/98442775-d4f47400-212c-11eb-9f1c-c24f3782ecfb.png)
+
+### If Click on Chat with other  You should enter port number ,computerId and IP Address then  you connect Server .This is multiClient Server chat.
+![image](https://user-images.githubusercontent.com/48892208/98442871-8eebe000-212d-11eb-803f-3d675772ac59.png)
+
 
 
 
