@@ -1,15 +1,15 @@
 
 
-## Cyber-Management-System
+# Cyber-Management-System
 
-<img src= "https://visitor-badge.laobi.icu/badge?page_id=201851019-iiitv/Loan-Management-System-Using-MYSQL-and-Java-GUI " alt="visitor badge"/> |  ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/201851019-iiitv/Loan-Management-System-Using-MYSQL-and-Java-GUI/master)
-
-
-# This Project based Java GUI MySql database and Socket Programming
-# RUN PROCESS:
+<img src= "https://visitor-badge.laobi.icu/badge?page_id=201851019-iiitv/Cyber-Management-System " alt="visitor badge"/> |  ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/201851019-iiitv/Cyber-Management-System/master)
 
 
-# I recommend to use Eclipse Java IDE.
+## This Project based Java GUI MySql database and Socket Programming
+## RUN PROCESS:
+
+
+## I recommend to use Eclipse Java IDE.
 
 1.First You should connect your java ide with JDBC(Java Database Connectivity) 
 Here the full reference of How to connect JDBC with MY SQL :
@@ -59,49 +59,28 @@ Connection con=DriverManager.getConnection(
 
   By default username is already root.
 
- # you should run main.java file
+ ### you should run main.java file
 OUTPUT :
 
    
    
-   # 1  After run you get 4 buttons:
+   ### 1  After run you get 4 option:
    
-![4_buttons](https://user-images.githubusercontent.com/48892208/85872981-20e1f480-b7ee-11ea-863e-3c8336d6ff7e.png)
-
-# if click   new Customer   first you  get registration form :
-![regist](https://user-images.githubusercontent.com/48892208/85873588-f7759880-b7ee-11ea-9643-2f826f587ff3.png)
-
-# after register you can login as exist customer  by using username and password can see all details of his and status of application also :
-![login](https://user-images.githubusercontent.com/48892208/85874048-aa45f680-b7ef-11ea-8551-372e59cba96d.png)
-![details](https://user-images.githubusercontent.com/48892208/85876473-648b2d00-b7f3-11ea-80df-31c780122c5f.png)
+![image](https://user-images.githubusercontent.com/48892208/98442386-4b43a700-212a-11eb-9870-a1db5a68c83b.png)
 
 
-# admin(Bank manager) can login  ,then after admin have 3 option  and he can application status update as passed or rejected or otherwise no action show pending application :
+### if click Admin First You get Login Page then After SuccessFull Login You can See All List of Members,Guest ,And request List of Either Guests or Members of Coffee tea and many more (In project username="Admin" && password="admin" :
+![image](https://user-images.githubusercontent.com/48892208/98442475-dae95580-212a-11eb-9284-5336ab5178f7.png)
+![image](https://user-images.githubusercontent.com/48892208/98442489-f6ecf700-212a-11eb-9ae7-45cbf607a7c9.png)
 
-![admin](https://user-images.githubusercontent.com/48892208/85874546-6c959d80-b7f0-11ea-9471-0a7212af45ea.png)
-![buttonadmin](https://user-images.githubusercontent.com/48892208/85874550-6e5f6100-b7f0-11ea-8510-7fb430608202.png)
+### If Click on New  Member .You get a Registration Form .After Successfully Registration.Your data is saved in database and you see a message of Successflly Registerd.
+![image](https://user-images.githubusercontent.com/48892208/98442629-ab871880-212b-11eb-8b18-97ed0cbc18b7.png)
 
-# if admin (Bank manager) choose  pending application then he can see all pending application :
-![pending](https://user-images.githubusercontent.com/48892208/85875179-753aa380-b7f1-11ea-92d0-93d7f284a11c.png)
-# if  admin (Bank manager) choose  passed application then he can see all passed application :
-![passed](https://user-images.githubusercontent.com/48892208/85875172-7370e000-b7f1-11ea-920d-936c6e4f67dc.png)
-# admin  (Bank manager) can also check a specific user by his name and dob and can changed the status :
- if status is already passed then admin haven't to change the status 
- if  status is pending he can change the status  to passed/rejected 
- if choose rejected then application deleted from database
- ![dob](https://user-images.githubusercontent.com/48892208/85875485-e5492980-b7f1-11ea-8f83-6c655eb38275.png)
-![data](https://user-images.githubusercontent.com/48892208/85875493-e8441a00-b7f1-11ea-8b2f-a4c397f78fa8.png)
+### If You Already a Member then You click on "Login As Member". After Click First You should login using Name and Mobile Number(primary Key in database)then You get Three option (Chat with Others,request for a tea or coffee,Dowload Files from Server). 
+![image](https://user-images.githubusercontent.com/48892208/98442764-c017e080-212c-11eb-96ed-14a790b1573f.png)
+![image](https://user-images.githubusercontent.com/48892208/98442748-9494f600-212c-11eb-85a9-7d3daf63499f.png)
+![image](https://user-images.githubusercontent.com/48892208/98442775-d4f47400-212c-11eb-9f1c-c24f3782ecfb.png)
 
-* admin (Bank manager) can see all borrower to hom much amount remaining to pay 
-
-# if user login as exist customer and status is passed it have 3 option :
-
-![3button](https://user-images.githubusercontent.com/48892208/85876193-fba3b500-b7f2-11ea-8295-731c58caa532.png)
-
-a)pay the installement : if pay then is upadate is remaining balance and print remaining balance also on screen.
-b)calculate the emi : he can caculate monthly emi using fill amount year and rate is already filled by bank manager.
-c)see remaining balance 
- 
 
 
 
