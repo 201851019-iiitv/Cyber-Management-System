@@ -4,7 +4,6 @@
 
 <img src= "https://visitor-badge.laobi.icu/badge?page_id=201851019-iiitv/Cyber-Management-System " alt="visitor badge"/> |  ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/201851019-iiitv/Cyber-Management-System/master)
 
-
 ## This Project based Java GUI MySql database and Socket Programming
 ## RUN PROCESS:
 
@@ -16,18 +15,19 @@ Here the full reference of How to connect JDBC with MY SQL :
 https://www.javatpoint.com/example-to-connect-to-the-mysql-database
 
 2.you should create a database with name of "project" using MYSql.
+
 3. create a table "CMS " in project database.Below given Syntax of MYSql.
  -- -----------------------------------------------------------------
-create table CMS(.
- name varchar(40),.
- mob varchar(40),.
- addr varchar(40),.
- gender varchar(40),.
- dob varchar(40),.
- primary key(name,mob).
+create table CMS(
+ name varchar(40),
+ mob varchar(40),
+addr varchar(40),
+ gender varchar(40),
+ dob varchar(40),
+ primary key(name,mob)
  
  
-);.
+);
 
 -------------------------------------------------------------------------------
 4. create a table "guest" in project database.Below given Syntax of MYSql.
@@ -84,6 +84,12 @@ OUTPUT :
 ### If Click on Chat with other  You should enter port number ,computerId and IP Address then  you connect Server .This is multiClient Server chat.
 ![image](https://user-images.githubusercontent.com/48892208/98442871-8eebe000-212d-11eb-803f-3d675772ac59.png)
 
+### If click on request for cofee or tea then Admin get notified and also can see manual rquest list of coffee .In order list contains Your name ,mobile number,quantity,requirement thing
+
+### If CLick on "Download Files from  Server" then you are able to download file of different different type from Server.
+
+### If Click on Guest login .Then you first you enter the your name and mobile number and then you able to use all functionalities use by a  Member(No require to fill registration form ). you time and pay are different from  a Member.
+![image](https://user-images.githubusercontent.com/48892208/98443105-3d445500-212f-11eb-8144-7959ba6e032f.png)
 
 
 
