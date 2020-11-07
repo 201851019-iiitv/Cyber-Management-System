@@ -1,0 +1,4 @@
+As we know that both TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are the most widely used Internet protocols among which TCP is connection oriented − once a connection is established, data can be sent bidirectional.
+ UDP is a simpler, connectionless Internet protocol. 
+Multiple messages are sent as packets in chunks using UDP. 
+Now on the basis of features of attributes we can distinguish between TCP and UDP.
