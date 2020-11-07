@@ -14,11 +14,11 @@
 Here the full reference of How to connect JDBC with MY SQL :
 https://www.javatpoint.com/example-to-connect-to-the-mysql-database
 
-2.you should create a database with name of "project" using MYSql.
+2.you should create a database with name of "project" using MYSql. <br /> 
 
 3. create a table "CMS " in project database.Below given Syntax of MYSql.
  -- -----------------------------------------------------------------
-create table CMS(
+create table CMS(  
  name varchar(40),
  mob varchar(40),
 addr varchar(40),
@@ -30,7 +30,7 @@ addr varchar(40),
 );
 
 -------------------------------------------------------------------------------
-4. create a table "guest" in project database.Below given Syntax of MYSql.
+4. create a table "guest" in project database.Below given Syntax of MYSql.<br /> 
  
 create table guest(
  name varchar(40),
@@ -38,7 +38,7 @@ create table guest(
  primary key(name,mob)
 );
 -- -----------------------------------------------------------------
-5. create a table "request" in project database.Below given Syntax of MYSql.
+5. create a table "request" in project database.Below given Syntax of MYSql.<br /> 
  
 create table request(
  name varchar(40),
@@ -54,8 +54,8 @@ create table request(
 Connection con=DriverManager.getConnection(
 "jdbc:mysql://localhost:3306/project","root","ambesh");
 
- *where you change root with your username and ambesh with password of you MYSQL .
-*In the code you should change this line of code with this
+ *where you change root with your username and ambesh with password of you MYSQL .<br /> 
+*In the code you should change this line of code with this<br /> 
 
   By default username is already root.
 
@@ -94,5 +94,7 @@ OUTPUT :
 
 
 
+📝If Liked Give Star ⭐⭐⭐to repo📝
 
+ Made with ❤️ .
 
